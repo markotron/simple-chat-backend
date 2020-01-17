@@ -36,9 +36,9 @@ app.get('/messages/starred', function(req, res) {
 app.get('/users', function(req, res) {
   const userId = req.query.userId;
   setTimeout(() => res.json({
-    id: userId,
+    id: Number(userId),
     name: `${randEl(adjectives)} ${randEl(nouns)}`
-  }), 1000);
+  }), 2000);
 });
 
 io.on('connection', function(socket){
