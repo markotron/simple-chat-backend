@@ -1,13 +1,10 @@
-# chat-example
+# Simple chat backend 
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+This is a fork of Socket.IO's [chat example](http://socket.io/get-started/chat/). 
 
-Please refer to it to learn how to run this application.
+I added a couple of endpoints that are used by the _react-hook-architecture_ repository. 
 
-You can also spin up a free Heroku dyno to test it out:
+## How to run? 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
-
-Besides, the application is deployed on [Now](https://zeit.co/now): https://socketio-chat-example.now.sh/
+* Clone this repo. 
+* In the root run `node index.js`. 
